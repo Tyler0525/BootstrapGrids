@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bootstrap and The Grids</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -35,7 +35,7 @@
                         <a class="nav-link" href="/gridTwo.html">Grid 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/gridThree.html">Grid 3</a>
+                        <a class="nav-link" href="/gridThree.html">Grid 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/gridFour.html">Grid 4</a>
@@ -61,10 +61,45 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-3 h-100 gy-3">
+                <div class="col">
+                    <div class="bg-secondary text-light h-100">
+                        COL ONE
+                        Fusce fermentum nisi sed neque iaculis, sed rhoncus elit semper. Vivamus vel ex at odio
+                        sollicitudin tristique. Cras aliquet erat sed elit porta imperdiet. Aenean porta nulla est,
+                        dictum pellentesque libero auctor ut. Donec eu interdum metus. Ut scelerisque arcu sit amet
+                        magna pharetra, quis scelerisque justo placerat. Ut neque ipsum, blandit quis sem et, consequat
+                        vestibulum risus. Proin ultrices, quam vitae blandit euismod, neque leo rutrum mauris, posuere
+                        tempor leo ligula a nunc.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-dark text-light h-100">
+                        COL TWO
+                        Duis sodales est quis neque porttitor, non interdum felis eleifend. Etiam aliquet mauris erat.
+                        Curabitur lacinia fringilla nisl id volutpat. Pellentesque nec dui id magna egestas pulvinar ut
+                        non risus. Phasellus varius sed ante sed feugiat. Phasellus eu facilisis risus, et accumsan dui.
+                        Proin mi dolor, pretium non tincidunt vehicula, lobortis rhoncus neque. Nulla facilisi. Quisque
+                        eget nibh neque. Curabitur ullamcorper nulla sed quam cursus, sit amet egestas metus aliquam.
+                        Sed vulputate enim purus, vel condimentum arcu egestas sit amet. Suspendisse fringilla erat non
+                        erat ornare auctor. Nulla ac neque vitae lectus condimentum efficitur vel ac leo. Mauris
+                        sollicitudin libero nunc, ac elementum arcu porta nec. Nam viverra nisi nec mauris commodo
+                        scelerisque. Vivamus at elementum ligula.
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-secondary text-light h-100">
+                        COL THREE
+                        Duis lobortis tempor leo ut auctor. Pellentesque quam turpis, posuere id ligula a, posuere
+                        accumsan metus. Integer placerat urna ipsum, vel placerat diam mattis et. Aliquam sagittis nisl
+                        eget pretium posuere. Nullam massa elit, scelerisque sit amet odio dictum, porta imperdiet
+                        purus. Pellentesque venenatis scelerisque dui. Praesent tempus justo lorem, bibendum posuere
+                        odio elementum nec. Sed lacus erat, laoreet nec hendrerit mollis, hendrerit vitae nulla.
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">

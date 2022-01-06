@@ -4,6 +4,10 @@
      padding: 60px 15px 0;
      margin-bottom: 5rem;
  }
+ main>.container-fluid {
+     padding: 60px 15px 0;
+     margin-bottom: 5rem;
+ }
 
  .sticky-footer {
      position: sticky;
@@ -28,4 +32,9 @@ background: url(/img/GridBG.png)
     font-weight: 700;
     text-transform: uppercase;
     color:black;
+}
+
+.minHeight{
+    min-height: 80vh;
+    
 }

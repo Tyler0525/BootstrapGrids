@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bootstrap and The Grids</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="/gridFour.html">Grid 4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/gridFive.html">Grid 5</a>
+                        <a class="nav-link" href="/gridFive.html">Grid 5</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/gridSix.html">Grid 6</a>
@@ -61,12 +61,54 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row h-100 gy-2">
+                <div class="col-12">
+                    <div class="bg-secondary h-100">
+                        COLUMN ONE
+                        Duis vehicula neque at finibus pulvinar. Ut congue nunc eu fermentum accumsan. Etiam a consequat
+                        dui, vel gravida turpis. Aenean elementum rhoncus eros, ac ullamcorper nisi blandit ac.
+                        Curabitur scelerisque mi ac rutrum aliquet. Etiam vitae ultrices est. Ut malesuada nunc ac elit
+                        lobortis, vel tempus ante scelerisque. Duis eu bibendum mauris, id pulvinar dui. Ut posuere
+                        lacinia arcu a ornare. Quisque non venenatis enim, in condimentum turpis. Nam pulvinar tempor
+                        neque. Sed non arcu quam.
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-last">
+                    <div class="bg-dark h-100 text-light">
+                        COLUMN TWO
+                        Move this column to position two on mobile
+                        Keep Right on MD breakpoints and above
+                        Nunc mattis, velit lacinia sodales convallis, ipsum nibh sodales arcu, non maximus leo magna sed
+                        erat. Duis imperdiet, enim eget efficitur consequat, ligula justo suscipit lorem, feugiat
+                        laoreet risus tortor at eros. Suspendisse rutrum consequat nunc ut aliquam. Pellentesque nisl
+                        enim, tincidunt eu convallis ac, efficitur vitae velit. Praesent et tortor eget odio tristique
+                        iaculis. Praesent lacus ex, molestie eget lacus a, fringilla suscipit urna. Sed consequat
+                        laoreet neque, et condimentum ipsum condimentum vel. Nam dignissim enim a sapien aliquet, sit
+                        amet sodales dolor commodo. Vestibulum nunc eros, gravida ac sollicitudin eu, faucibus id nibh.
+                        Vivamus maximus tristique tellus eu consequat.
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-last">
+                    <div class="bg-info h-100 text-white">
+                        COLUMN THREE
+                        Move this column to position two on mobile
+                        Keep Right on MD breakpoints and above
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex neque, venenatis quis gravida
+                        a, porta in dui. Pellentesque interdum elit at erat rutrum pharetra. Proin lectus lectus,
+                        consequat a aliquam et, vulputate quis est. Praesent in est rhoncus ante scelerisque
+                        sollicitudin. Maecenas ac dolor nec nisl vehicula laoreet. Suspendisse ac nunc eu elit mollis
+                        sodales eu in elit. In hac habitasse platea dictumst. Nullam et massa at justo viverra gravida
+                        ac at est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce et leo in massa
+                        molestie vulputate.
+
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">Built by Tyler Taylor</span>

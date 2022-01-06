@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bootstrap and The Grids</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/gridOne.html">Grid 1</a>
+                        <a class="nav-link" href="/gridOne.html">Grid 1</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/gridTwo.html">Grid 2</a>
@@ -61,13 +61,53 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row h-100">
+                <!-- LEFT COLUMN-->
+                <div class="col col-md-7">
+                    <div class="bg-secondary text-light h-100">
+                        COL LEFT
+                        Nullam pharetra enim id ullamcorper sollicitudin. Integer cursus interdum turpis ac feugiat.
+                        Proin tristique massa eget orci efficitur, vel pharetra quam finibus. Vivamus consectetur elit
+                        at dui lacinia posuere. Etiam ut orci justo. Etiam a mauris porttitor, semper augue sed, lacinia
+                        elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                        Cras vel neque pretium velit sodales consequat id nec enim. Quisque in nunc fringilla, tincidunt
+                        tortor ac, ornare ex. Vivamus et nibh condimentum, varius velit sit amet, elementum quam. Ut
+                        euismod lorem sed justo ultrices, quis dictum urna tristique. Mauris ante urna, consectetur ac
+                        laoreet at, suscipit at ante.
+                    </div>
+                </div>
+                <!--RIGHT COLUMN-->
+                <div class="col col-md-5 h-100 d-flex flex-column">
+                    <div class="bg-secondary text-light md-2 h-50">
+                        COL RIGHT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed massa ex. Proin quis accumsan
+                        lacus. Aliquam luctus, massa non pretium fermentum, felis massa vestibulum turpis, eget
+                        tincidunt erat enim sit amet dui. Suspendisse a ligula volutpat, dapibus libero eget, malesuada
+                        orci. Nam ut lacinia sapien, nec tempus arcu. Maecenas malesuada nibh vitae erat pharetra
+                        suscipit. Sed finibus dapibus ante, sed hendrerit est vehicula nec. Pellentesque habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis egestas. Proin scelerisque aliquet mi
+                        ut blandit. Sed mollis ex id interdum porta. Vivamus maximus volutpat lacus ac vehicula. Mauris
+                        odio urna, accumsan et est ut, consectetur aliquet nibh.
+                    </div>
+                    <div class="bg-dark h-50 text-light">
+                        COL RIGHT BOTTOM
+                        Fusce fermentum nisi sed neque iaculis, sed rhoncus elit semper. Vivamus vel ex at odio
+                        sollicitudin tristique. Cras aliquet erat sed elit porta imperdiet. Aenean porta nulla est,
+                        dictum pellentesque libero auctor ut. Donec eu interdum metus. Ut scelerisque arcu sit amet
+                        magna pharetra, quis scelerisque justo placerat. Ut neque ipsum, blandit quis sem et, consequat
+                        vestibulum risus. Proin ultrices, quam vitae blandit euismod, neque leo rutrum mauris, posuere
+                        tempor leo ligula a nunc.
+                    </div>
+                    <div class="bg-dark mt-2 p-2 text-light">
+                        <button type="button" class="btn btn-light">Read More</button>
+                    </div>
+                  
+                </div>
+            </div>
         </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-light sticky-footer">
+    <footer class=" footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">Built by Tyler Taylor</span>
         </div>

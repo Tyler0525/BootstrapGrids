@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bootstrap and The Grids</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link"  href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/gridOne.html">Grid 1</a>
@@ -61,10 +61,33 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-2 h-100 gy-3">
+                <div class="col">
+                    <div class="bg-dark text-light h-100">
+                        COL ONE
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in euismod nunc, vitae molestie
+                        erat. Sed ut nulla massa. Suspendisse potenti. Donec eget est urna. Mauris aliquam, tortor id
+                        porttitor accumsan, lacus leo imperdiet libero, quis tempor massa nisl ac eros. Fusce tincidunt,
+                        purus sed consectetur ullamcorper, elit mauris posuere ex, non sagittis nulla est in justo. Sed
+                        orci nibh, mollis in hendrerit luctus, congue vitae risus. Nunc bibendum facilisis turpis, nec
+                        feugiat turpis pharetra quis.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-secondary text-light h-100">
+                        COL TWO
+                        Nulla egestas nunc quam, nec interdum massa aliquet vel. Mauris lacus nisl, euismod a
+                        ullamcorper eu, cursus quis dolor. Curabitur quis convallis augue. Mauris vel dictum augue, vel
+                        ullamcorper purus. Nam ut nunc augue. Orci varius natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Praesent ornare, enim id congue dictum, nunc mauris imperdiet
+                        augue, id vehicula nibh dolor quis libero. Maecenas accumsan arcu sit amet sem vehicula
+                        hendrerit. Duis dictum aliquet aliquam. Sed convallis ultrices nisi, ut dignissim ante ornare
+                        sit amet.
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">

@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bootstrap and The Grids</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="/gridThree.html">Grid 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/gridFour.html">Grid 4</a>
+                        <a class="nav-link" href="/gridFour.html">Grid 4</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/gridFive.html">Grid 5</a>
@@ -61,10 +61,43 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-3 h-100 gy-3">
+                <div class="col col-md-3">
+                    <div class="bg-secondary text-light h-100">
+                        COL ONE
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper risus id auctor egestas.
+                        Sed ac eleifend purus, vehicula mollis ante. Vestibulum id ornare leo. Cras vulputate nisl at
+                        nisi aliquet, a facilisis purus pellentesque. Etiam congue tempor mauris, quis vehicula nisl
+                        tempor at. Quisque sit amet turpis vel lectus mollis euismod in laoreet nulla. Proin pretium
+                        purus nec elit sodales, ut ultrices justo mattis. Suspendisse et placerat libero, nec congue
+                        ante. Mauris sodales hendrerit ex vel bibendum.
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-dark text-light h-100">
+                        COL TWO
+                        Donec sagittis et ex vitae varius. Pellentesque purus lectus, accumsan vel mauris eu,
+                        sollicitudin pretium urna. Sed vel arcu eros. Phasellus eleifend vitae nisl laoreet pretium.
+                        Nulla tincidunt sem ac rhoncus euismod. Pellentesque ac neque eleifend, hendrerit odio eu,
+                        placerat dui. Mauris gravida dui sit amet rhoncus dignissim. Nullam interdum placerat massa ac
+                        placerat. Morbi nec aliquam risus.
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="bg-secondary text-light h-100">
+                        COL THREE
+                        Maecenas aliquet arcu massa, finibus rutrum tellus commodo vitae. Duis ultricies hendrerit
+                        ligula vel vehicula. Nulla laoreet ante at dui imperdiet vulputate. Sed luctus velit nec dui
+                        molestie faucibus. Etiam eleifend quis magna ac tristique. Vestibulum vel odio eu nibh venenatis
+                        fermentum. Aliquam consequat laoreet nisl, sed faucibus nibh vulputate ac. Donec odio lacus,
+                        feugiat ut porta fringilla, consequat vitae mauris. Suspendisse feugiat imperdiet urna, et
+                        tempor nunc iaculis ac. Mauris tincidunt, turpis ut convallis sagittis, turpis neque consectetur
+                        elit, quis laoreet massa massa ut nisi. Nam justo tellus, imperdiet sit amet turpis pulvinar,
+                        dapibus iaculis nisi. Vestibulum eget maximus purus. Maecenas blandit quis orci et imperdiet.
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
